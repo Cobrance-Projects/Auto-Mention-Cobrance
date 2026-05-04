@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Auto Menção Cobrance – Configurações</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">@</div>
+        <div>
+					<div class="title">
+					  Auto Menção Cobrance v<span id="version"></span>
+					</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- LEFT -->
+      <section class="card">
+        <div class="cardHead">
+          <h2>Geral</h2>
+          <p class="muted">
+            Configure como o AutoMention se comporta ao redigir e-mails.
+          </p>
+        </div>
+
+        <div class="form">
+          <div class="field">
+            <label class="check">
+              <input id="enabled" type="checkbox" />
+              <span>Habilitar AutoMention</span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label class="check">
+              <input id="autoAddRecipient" type="checkbox" />
+              <span>Adicionar automaticamente o contato mencionado aos destinatários</span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label for="recipientMode">Adicionar contatos mencionados para</label>
+            <select id="recipientMode">
+              <option value="to">Para</option>
+              <option value="cc">Cc</option>
+              <option value="bcc">Bcc</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="maxSuggestions">Máximo de sugestões</label>
+            <select id="maxSuggestions">
+              <option value="5">5</option>
+              <option value="8">8</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="triggerChar">Caractere de gatilho</label>
+            <input id="triggerChar" type="text" maxlength="1" placeholder="@" />
+            <div class="help">O padrão é @</div>
+          </div>
+
+          <div class="field">
+            <label class="check">
+              <input id="showOnEmptyQuery" type="checkbox" />
+              <span>Mostrar sugestões imediatamente após digitar o gatilho</span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label class="check">
+              <input id="showRecentContacts" type="checkbox" />
+              <span>
+                Mostrar contatos recentes quando nenhuma consulta for digitada
+              </span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label class="check">
+              <input id="showActiveBadge" type="checkbox" />
+              <span>
+                Auto Menção Cobrance
+              </span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label class="check">
+              <input id="appendFooter" type="checkbox" />
+              <span>
+                Adicionar rodapé "Enviado com AutoMention para Thunderbird"
+              </span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label class="check">
+              <input id="toastEnabled" type="checkbox" />
+              <span>
+                Mostrar notificações
+              </span>
+            </label>
+          </div>
+        </div>
+
+        <div class="rowActions">
+          <button id="save" class="btn primary">Salvar</button>
+          <button id="reset" class="btn">Redefinir padrões</button>
+          <div id="status" class="status"></div>
+        </div>
+      </section>
+
+      <!-- RIGHT -->
+      <section class="card">
+        <div class="cardHead">
+          <h2>Pesquisa e Classificação</h2>
+          <p class="muted">
+            Ajuste fino de como os contatos são pesquisados e ordenados.
+          </p>
+        </div>
+
+        <div class="form">
+          <div class="field">
+            <label class="check">
+              <input id="preferSameDomain" type="checkbox" />
+              <span>
+                Preferir contatos do mesmo domínio de e-mail
+              </span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label class="check">
+              <input id="preferRecentRecipients" type="checkbox" />
+              <span>
+                Preferir destinatários usados recentemente
+              </span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label class="check">
+              <input id="highlightMentions" type="checkbox" />
+              <span>
+                Destacar visualmente as menções inseridas
+              </span>
+            </label>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
