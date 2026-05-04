@@ -5,6 +5,10 @@
         {
           "version": "1.7.0",
           "update_link": "https://Cobrance-projects.github.io/Auto-Mention-Cobrance/releases/Auto-Mencao-Cobrance-1.7.0.xpi"
+        },
+        {
+           "version": "1.7.2",
+           "update_link": "https://Cobrance-projects.github.io/Auto-Mention-Cobrance/releases/Auto-Mencao-Cobrance-1.7.2.xpi" 
         }
       ]
     }
