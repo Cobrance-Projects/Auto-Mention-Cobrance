@@ -15,7 +15,7 @@ A extensão Auto Menção Cobrance permite mencionar contatos ao compor e-mails 
 
 | Versão | Data de Lançamento | Status |
 |--------|-------------------|--------|
-| 1.7.0  | 2024-01-15        | Atual  |
+| 1.7.2  | 2024-01-15        | Atual  |
 
 ## 🚀 Como Usar
 
