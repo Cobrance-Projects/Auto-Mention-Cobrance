@@ -15,7 +15,7 @@ A extensão Auto Menção Cobrance permite mencionar contatos ao compor e-mails 
 
 | Versão | Data de Lançamento | Status |
 |--------|-------------------|--------|
-| 1.7.0  | 2024-01-15        | Atual  |
+| 1.7.2  | 2026-05-04        | Atual  |
 
 ## 🚀 Como Usar
 
@@ -26,7 +26,7 @@ A extensão Auto Menção Cobrance permite mencionar contatos ao compor e-mails 
 
 ## 📝 Changelog
 
-### Versão 1.7.0
+### Versão 1.7.2
 - Versão inicial com suporte a atualizações automáticas
 - Compatibilidade com Thunderbird 128.0+
 
