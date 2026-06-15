@@ -25,8 +25,11 @@
         {
            "version": "1.9.0",
            "update_link": "https://Cobrance-projects.github.io/Auto-Mention-Cobrance/releases/Auto-Mencao-Cobrance-1.9.0.xpi" 
+        },
+        {
+           "version": "1.9.1",
+           "update_link": "https://Cobrance-projects.github.io/Auto-Mention-Cobrance/releases/Auto-Mencao-Cobrance-1.9.1.xpi" 
         }
-        
         
       ]
     }
